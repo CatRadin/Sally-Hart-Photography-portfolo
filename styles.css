@@ -57,8 +57,8 @@ body {
 }
 section {
     height: 100vh;
-    background-image: url('/assets/sally_1.jpg');
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -79,7 +79,7 @@ header {
 footer {
     position: fixed;
     bottom: 1.2rem;
-    left: l.2rem; 
+    left: 1.4rem; 
 }
 
 h1 {
@@ -87,6 +87,24 @@ h1 {
    margin-bottom: 0.2rem;
 }
 
-header h1 {
+footer a {
     margin-right: 0.5rem;
+}
+
+footer a:hover {
+    color:#dddddd;
+}
+.image_1{
+    background-image: url('/assets/sally_1.jpg');
+}
+.image_2 {
+background-image: url('/assets/sally_2.jpg');
+}
+
+.image_3 {
+    background-image: url('/assets/sally_3.jpg');
+}
+
+.image_4 {
+    background-image: url('/assets/sally_4.jpg');
 }
